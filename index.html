@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Carousel</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="images/png" href="images/logo.png" sizes="16x16">
+    <!-- Fonts Link -->
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Media Query File -->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Carousel start -->
+          <div id="cid" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <!-- Indicator start -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#cid" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#cid" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#cid" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#cid" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <!-- Indicator end -->
+            <!-- Inner start -->
+            <div class="carousel-inner">
+              <!-- Item One -->
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/img1.jpg" class="d-block w-100" alt="Nature_View">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <!-- Item Two -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/img2.jpg" class="d-block w-100" alt="Nature_View">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <!-- Item Three -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/img3.jpg" class="d-block w-100" alt="Nature_View">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <!-- Item Four -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/img4.jpg" class="d-block w-100" alt="Nature_View">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Inner end -->
+            <!-- Control Button start -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#cid" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cid" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <!-- Control Button end -->
+          </div>
+          <!-- Carousel end -->
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap JS File -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
